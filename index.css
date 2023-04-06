@@ -1,13 +1,50 @@
-#main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+html {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#github-container {
-  display: flex;
+html, body {
+  background-color: aqua;
+  margin: 0;
+  padding: 0;
 }
 
-ul {
-  list-style: none;
+
+input[type="Buy Tickets"], button {
+  background-color: #0000ff ;
+  color: rgb(205, 120, 120);
+  font-size: 18px;
+  border-radius: 6px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+  
+}
+#desc{
+  font-style: italic;
+  font-size: large;
+  padding-right: 2mm;
+  text-align: justify;
+
+}
+
+#images {
+  display: block;
+  margin-left: 50mm;
+  margin-right: 0;
+  width: 20%;
+  height: 10%;
+}
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(165, 65, 42);
+  padding: 2mm
+    
+}
+
+h2{
+  font-style: italic;
+  margin-left: 5mm;
+}
+
+#yolo{
+  margin-left: 50mm;
 }
